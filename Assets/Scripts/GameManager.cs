@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour {
 	void Reset()
 	{
 		Time.timeScale = 1f;
-		SceneManager.LoadScene("MainScene");
+		SceneManager.LoadScene(0);
 	}
 
 	public void LoseLife()
